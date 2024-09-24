@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/spell_icon_red.png" type="image/icon type">
+    <title>Signature Sorcery</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Babylonica&family=Ballet:opsz@16..72&family=Beau+Rivage&family=Corinthia:wght@400;700&family=Fuggles&family=Great+Vibes&family=Hurricane&family=Lovers+Quarrel&family=Luxurious+Script&family=Ms+Madi&family=Passions+Conflict&family=Pinyon+Script&family=Qwigley&family=Ruthie&family=Sassy+Frass&family=WindSong:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap" rel="stylesheet">
+    
+    <script src="libraries/p5.min.js"></script>
+</head>
+
+<body>
+    <audio id="background-music" src="sounds/bgm.mp3" loop></audio>
+    <img id="mute-button" src="images/mute_icon.png" alt="Mute/Unmute Music" onclick="toggleMute()" style="cursor: pointer;" />
+
+    <div id="loading-screen">
+        <div id="loading-animation">Signature Sorcery</div>
+    </div>
+
+    <div class="instruction-panel" id="instruction-panel"></div>
+    <div class="esc-text">ESC</div>
+
+    <div class="main_frame"></div>
+    <div class="gif_01"></div>
+    <div class="gif_02"></div>
+    <div class="text_frame_01"></div> 
+    <div class="text_frame_02"></div> 
+
+    <img src="images/download_icon_red.png" alt="Download" class="icon download_icon">
+    <img src="images/star_icon_red.png" alt="Format" class="icon star_icon">
+    <img src="images/spell_icon_red.png" alt="Change Font" class="icon spell_icon">
+
+    <script src="sketch.js"></script>
+</body>
+</html>
